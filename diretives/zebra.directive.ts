@@ -1,4 +1,12 @@
 
+/*
+  auth: amarildo lacerda
+  created: March, 30 2018
+  sample:
+   <div mat-zebra index={{numIndex}} oddColor="linen" evenColor="ligthgrey">
+
+   </div>
+*/
 import { Directive, ElementRef, OnInit, Input, 
   HostListener,Renderer2, HostBinding } from '@angular/core';
 
